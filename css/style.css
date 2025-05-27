@@ -13184,3 +13184,31 @@ textarea.form-control {
         stroke-dashoffset: -136px;
     }
 }
+
+/*addng*/
+body {
+  padding-top: 70px;
+}
+
+
+@media (max-width: 768px) {
+  .navbar-nav {
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    text-align: center;
+  }
+
+  .navbar-nav .nav-item {
+    margin: 5px 10px;
+  }
+
+  .navbar-collapse {
+    background-color: #111; /* Optional: Makes dropdown cleaner */
+    padding: 10px 0;
+  }
+
+  .navbar {
+    padding: 0.5rem 1rem;
+  }
+}
