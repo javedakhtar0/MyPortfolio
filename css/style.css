@@ -5,7 +5,7 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 
- /*chngee start*/
+ 
  /* ---------- Mobile Responsiveness Fixes ---------- */
 @media (max-width: 768px) {
   
@@ -346,6 +346,7 @@ button,
 [type="reset"],
 [type="submit"] {
     -webkit-appearance: button;
+     appearance: button;
 }
 
 button:not(:disabled),
@@ -375,6 +376,7 @@ input[type="time"],
 input[type="datetime-local"],
 input[type="month"] {
     -webkit-appearance: listbox;
+    appearance: listbox;
 }
 
 textarea {
@@ -413,6 +415,8 @@ progress {
 [type="search"] {
     outline-offset: -2px;
     -webkit-appearance: none;
+    appearance: none;
+
 }
 
 [type="search"]::-webkit-search-decoration {
@@ -12555,6 +12559,7 @@ textarea.form-control {
 .mfp-with-zoom.mfp-bg {
     opacity: 0;
     -webkit-backface-visibility: hidden;
+      backface-visibility: hidden;
     -webkit-transition: all 0.3s ease-out;
     -moz-transition: all 0.3s ease-out;
     -o-transition: all 0.3s ease-out;
@@ -13185,7 +13190,7 @@ textarea.form-control {
     }
 }
 
-/*addng*/
+/*fixcing naw bar*/
 body {
   padding-top: 70px;
 }
