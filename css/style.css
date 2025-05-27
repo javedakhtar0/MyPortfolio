@@ -5,6 +5,70 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 
+ /*chngee start*/
+ /* ---------- Mobile Responsiveness Fixes ---------- */
+@media (max-width: 768px) {
+  
+  /* Make heading fonts smaller */
+  h1, h2, h3 {
+    font-size: 1.5rem;
+  }
+
+  .subheading {
+    font-size: 1rem;
+  }
+
+  /* Navbar spacing on smaller screens */
+  .navbar-nav {
+    text-align: center;
+  }
+
+  /* Reduce padding for buttons */
+  .btn {
+    padding: 10px 20px;
+    font-size: 0.9rem;
+  }
+
+  /* Adjust hero section text */
+  .hero .text h1 {
+    font-size: 1.8rem;
+  }
+
+  .hero .text h2 {
+    font-size: 1.2rem;
+  }
+
+  /* Reduce section padding */
+  .ftco-section {
+    padding: 2rem 0;
+  }
+
+  /* Ensure images fit within container */
+  img,
+  .img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  /* Align project and contact sections */
+  .project .text,
+  .contact-form {
+    padding: 1rem;
+  }
+
+  /* Center social icons */
+  .ftco-footer-social {
+    justify-content: center;
+  }
+
+  /* Contact info box stacking fix */
+  .contact-info .box {
+    margin-bottom: 1rem;
+  }
+}
+/*chngee end*/
+
+
 :root {
     --blue: #007bff;
     --indigo: #6610f2;
